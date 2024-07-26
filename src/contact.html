@@ -12,27 +12,43 @@
 </head>
 
 <body>
-    <header><img src="images/WaterFeatureLogo.png" alt="Inspirations"><h1>Contact Us</h1></header>
+  <header><img src="images/WaterFeatureLogo.png" alt="Inspirations">
+    <h1>Gabor’s Custom Water Features</h1>
+    <h2>Contact Us</h2>
+  </header>
 
-    <nav>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="inspirations.html">Inspirations</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="aboutUs.html">About</a></li>
-        </ul>
-      </nav>
-      <div class="hero">
-        <div class="hero-content"><img src="images/background_heroimage_waterfall.png" alt="AI Generated content">
-          <br> <br>
-          <h2>Lets create the perfect water feature for your home <br>
-            Our collaboration starts here</h2>
-            <h3>Send inspirations, photos, and a paragraph about what you want to create </h3>
-            <a href="mailto:Nikki@prototyping-life.com">
-              <button>Email me!</button>
-            </a>
-        </div>
-      </div>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="inspirations.html">Inspirations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="aboutUs.html">About</a></li>
+    </ul>
+  </nav>
+  <h2>Our collaboration starts here</h2>
+  <div class="container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Specify product title or custom product.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    
+    </form>
+  </div>
 
     
     <script type="module" src="./javascripts/main.js"></script>
