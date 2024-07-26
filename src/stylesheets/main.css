@@ -29,13 +29,29 @@ nav {
 
 h1 {
     font-size: xx-large;
-    font-weight: bolder;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
 
 }
 h2 {
     font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    font-style: normal;
+}
+
+h3 {
+    font-size: large;
     font-weight: lighter;
-    font-display: center;
+    text-align: center;
+    font-style: normal;
+}
+h4 {
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+    font-style: normal;
 }
   /* Links - change color on hover */
 nav a:hover {
@@ -58,35 +74,46 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
 }
 
 column-1 {
-    
     float: left;
     width: 30%;
     background-color: #E8DACD ;
-    padding-left: 50px;
+    padding-left: 70px;
+}
+column-1 img {
+    width: 100%;
+
 }
   
 column-2 {
     float: left;
     width: 30%;
     background-color: #E8DACD;
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-  
+
+column-2 img {
+    width: 100%;
+
+}
   /* Middle column */
 column-3 {
     float: left;
     width: 30%;
     background-color: #E8DACD;
-    padding-right: 20px;
+    padding-right: 10px;
+}
+column-3 img {
+    width: 100%;
 }
 img {
     width: 300px;
     height: 300px;
-    object-fit: cover;
+    /* object-fit: cover; */
+    object-fit:cover;
 }
 footer {
     position:fixed;
