@@ -1,0 +1,52 @@
+a home page; about us page; maybe a product, services, or inventory page, and a contact page
+use code snippets for some components such as an accordion, carousel, modal, and hover effects. 
+Below is a list of requirements for your web projects:
+
+Incorporate HTML5 elements to give code semantic meaning. Code should not be all DIVS. 
+See the following code which includes HTML5 elements such as nav, section, main, header, article, etc.
+You should use a framework such as Bootstrap or Bulma to make the website responsive. If you decide to 
+code it from scratch, you should then use CSS Flexbox and CSS Grid to set up responsive, 
+multi-column layouts. If you use a framework, you need to customize its styles.
+Customize the framework program to give your web project a unique look. You can do this by simply 
+setting up CSS overrides. For example, if you want to remove the rounded corners from buttons, you 
+would set up a style rule targeting .btn and setting the border radius value to 0. Another option 
+is to use SASS just like you did in the Review Assignment and Project 1.
+Follow good design principles relating to colors, typography, layouts, etc. Choose "web fonts" 
+such as those available for free use at fonts.google.com. See the Canvas modules for links to 
+online design articles.
+Choose quality images that abide by copyright laws. Use an image editing program (i.e., Photo- shop, PhotoScape) 
+to perform any required editing and transforming of the image. Optimize the images shooting for under 200KB in 
+file size except for large hero images. Name the images using lowercase letters with underscores (_) between words 
+and no spaces. Be sure to add ALT information to all HTML image elements.
+Follow good usability and accessibility.
+Incorporate UI elements such as buttons and Take advantage of free online resources such as fontawesome.com and 
+www.flaticon.com.Links to an external site.
+Go beyond the basics with the website. For example, include advanced features such as a web form, css animation 
+and shapes drawn with css. You could also design your own illustration or
+If the website calls for it, you can also use a Javascript library or framework such as React, Angular or Vue.js.
+Improve the layout and design at various breaking points (i.e., phone, tablet, and desktop) by setting up media 
+queries with breakpoints for desktops tablets, and mobile phones at a minimum.
+e 99design website. This website is a place where clients can post projects in the form of contests to be completed 
+by a community of designers. A brief is provided by the client including requirements and resources for the project. 
+To explore what 99designs has to offer in the way of portfolio projects, go to https://99designs.com Links to an 
+external site.and create a user account (no money involved). You will need an account as a designer to view contest briefs. 
+Then go to https://99designs.com/contests.Links to an external site. Choose a category and then use the filter option to narrow 
+down your search for contests as you can see below.
+
+Description and Scope
+3 to 4 pages
+a home page; about us page; maybe a product, services, or inventory page, and a contact page a place for customers to upload and inspirational
+ picture with a text box that can be filled with specific instructions and a means to take a payment
+
+Significance
+To provide a means of selling original environmentally thoughtful fountains and art pieces to display a water feature that 
+reuses pieces that you may own or produces a product that is built for you. 
+
+equipment needs and resources
+adobe XD computer domain visual studio code
+Timeline
+3 hours proposal
+3 hours prototype
+5 hours coding
+3 hours user interviews
+3 hours editing and improving site according to feedback
